@@ -1,0 +1,23 @@
+https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover
+
+Link da paleta de cores:
+https://colorhunt.co/palette/f6f5f5d3e0ea1687a7276678
+
+Login
+https://codepen.io/marcobiedermann/pen/nbpKWV
+https://www.javascripttutorial.net/javascript-dom/javascript-toggle-password-visibility/
+
+Efeitos
+https://www.theappguruz.com/tag-tools/web/CSSAnimations/
+
+Search fullscreen
+https://codepen.io/nunosarmento/pen/VwvgjYM
+
+Search js
+https://levelup.gitconnected.com/implement-search-feature-on-a-web-page-in-plain-javascript-adad27e48
+
+responsive menu
+https://codepen.io/anilchaudhary/pen/ZaXdWx
+
+smooth scroll
+https://gist.github.com/ricardozea/abb9f98a19f6d04a0269

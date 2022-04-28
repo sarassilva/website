@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Events | Bright Analytics</title>
+<meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="author" content="Giliardy Minicucci" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="refresh" content="600" />
+<meta name="keywords" content="Final project" />
+<link rel="stylesheet" type="text/css" href="stylesheet/style.css" />
+<link rel="stylesheet" type="text/css" href="stylesheet/animation.css" />
+<link rel="stylesheet" type="text/css" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="fadeInBody">
+
+<a href="#" class="back-to-top" onclick="scrollToTop();return false">  <i class="fas fa-angle-up"></i> </a>
+
+<div id="search_form" class="fade">
+    <a href="#" class="close-btn" id="close-search">
+    <i class="fa fa-times"></i>
+    </a>
+    <form role="search" method="get" class="searchform">
+    <input placeholder="type here" type="text" name="search" id="search"/>
+    <button class="search_btn" name="search_btn"><i class="fa fa-search"></i></button>
+    </form>
+    <div id="app" class="search_results"></div>
+</div>
+
+<header class="align-left">
+<div class="top">
+
+    <a class="logo_principal" href="index.html">
+      <img class="logo" src="assets/ba-logo.png" alt="Logo of the website." />
+      <img class="logo-text" src="assets/ba-logo-text.png" alt="Logo of the website." />
+    </a>
+
+         <div class="button"></div>
+
+        <div class="user_search">
+      <ul>
+        <li><a class="search-icon" href='#search_form'><i class="fa fa-search"></i></a> </li>
+        <li> <a href="login.html"><i class="fa fa-user"></i></a> </li>
+      </ul>
+    </div>
+
+
+    <nav id="nav-bar" class="nav-bar">
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="has-sub"><a href='#'>Articles</a>
+                <ul class="sub-menu">
+                  <li><a href="articles.html">Latest news</a></li>
+                  <li><a href="#">Big Data</a></li>
+                  <li><a href="#">Data Science</a></li>
+                  <li><a href="#">Machine Learning</a></li>
+                  <li><a href="#">Artificial Intelligence</a></li>
+                 </ul>
+            </li>
+            <li><a href="events.html">Events</a></li>
+        </ul>
+</nav>
+
+</div>
+</header> 
+
+
+<main>
+
+<div class="events-title align-left">
+  <section class="hold">
+    <div class="breadcrumb">
+       <ul>
+        <li><a href="index.html">Home</a></li>
+        <span><i class="fa-solid fa-chevron-right"></i></span>
+        <li><a href="events.html">Events</a></li>
+       </ul>
+     </div>
+    <h2>Events & Webinars</h2>
+    <p>Here you will find a range of in person events that are taking place being hosted by Bright Analytics as well as Webinars. The Events & Webinars are free and are here to bring the data and analytics community together to connect, collaborate, and learn about latest tech!</p>
+
+  </section>
+</div>
+
+<div class="events events_page align-left">
+  <section class="hold">
+    <h2>Featured Events & Webinars</h2>
+    <ul class="flex">
+      <li>
+        <img class="image" src="assets/events/cybersecurity_expo.png" alt="Event image " /> 
+        <h3 class="title"><a href="events.html">Cloud & Cyber Security Expo</a></h3>
+        <div class="location">Royal Victoria Dock, 1 Western Gateway <br> London <br> E16 1XL</div>
+        <div class="date">Monday 21<sup>st</sup> February · 12:00pm</div>
+        <div class="register"><a href="register.html">Register</a> </div>
+      </li>
+  
+      <li>
+        <img class="image" src="assets/events/machine_learning_for_beginners.png" alt="Machine Learning for beginners" /> 
+        <h3 class="title"><a href="events.html">Machine Learning for beginners</a></h3>
+        <div class="location">Tintagel House, 92 Albert Embankment <br> London <br> SE1 7TY</div>
+        <div class="date">Friday 1<sup>st</sup> April · 03:30pm</div>
+        <div class="register"><a href="register.html">Register</a> </div>
+      </li>
+  
+      <li>
+        <img class="image" src="assets/events/data_science_weekend.png" alt="Event banner" /> 
+        <h3 class="title"><a href="events.html">Data Science Weekend</a></h3>
+        <div class="location">1 St Giles High St <br> London <br> WC2H 8AG</div>
+        <div class="date">Friday 1<sup>st</sup> April · 08:45am</div>
+        <div class="register"><a href="register.html">Register</a> </div>
+      </li>
+    </ul>
+  </section>
+  </div>
+
+<div class="events bg align-left">
+<section class="hold">
+  <h2>Upcoming Events & Webinars</h2>
+
+<ul class="grid">
+  <li>
+    <img class="image" src="Assets/events/future_cloud_computing.png" alt="Event banner" /> 
+    <h3 class="title"><a href="event.html">The Future of Cloud Computing</a></h3>
+    <div class="location">Somerset House, Strand <br> London <br> WC2R 1LA</div>
+    <div class="date">Friday 10<sup>th</sup> March · 10:00am</div>
+    <div class="register"><a href="register.html">Register</a> </div>
+  </li>
+
+  <li>
+    <img class="image" src="Assets/events/into_ml_python.png" alt="Event banner" /> 
+    <h3 class="title"><a href="event.html">Short Course - Intro to ML with Python</a></h3>
+    <div class="location">Runway East Shoreditch, 10 Finsbury Square, <br> London <br> EC2A 1AF</div>
+    <div class="date">Thursday 17<sup>th</sup> March · 01:30pm</div>
+    <div class="register"><a href="register.html">Register</a> </div>
+  </li>
+
+  <li>
+    <img class="image" src="Assets/events/data_hackathon.png" alt="Event banner" /> 
+    <h3 class="title"><a href="event.html">Data Hackathon</a></h3>
+    <div class="location">Tintagel House, 92 Albert Embankment <br> London <br> SE1 7TY</div>
+    <div class="date">Friday 23<sup>rd</sup> March · 09:30am</div>
+    <div class="register"><a href="register.html">Register</a> </div>
+  </li>
+
+  <li>
+    <img class="image" src="Assets/events/mini_python_projects.png" alt="Event banner" /> 
+    <h3 class="title"><a href="event.html">Create Mini Python Projects</a></h3>
+    <div class="location">Online Webinar</div>
+    <div class="date">Tuesday 12<sup>th</sup> April · 02:00pm</div>
+    <div class="register"><a href="register.html">Register</a></div>
+  </li>
+
+  <li>
+    <img class="image" src="Assets/events/ml_healthcare.png" alt="Event banner" /> 
+    <h3 class="title"><a href="event.html">Machine Learning for Healthcare</a></h3>
+    <div class="location">Online Webinar</div>
+    <div class="date">Tuesday 3<sup>rd</sup> May · 04:00pm</div>
+    <div class="register"><a href="register.html">Register</a> </div>
+  </li>
+
+  <li>
+    <img class="image" src="Assets/events/python_fundamentals.png" alt="Event banner" /> 
+    <h3 class="title"><a href="event.html">Learn Python Fundamentals</a></h3>
+    <div class="location">WeWork, 3, Waterhouse Square, Holborn <br> London <br> EC1N 2SW</div>
+    <div class="date">Wednesday 4<sup>th</sup> May · 11:15am</div>
+    <div class="register"><a href="register.html">Register</a> </div>
+  </li>
+</ul>
+
+
+</section>
+</div>
+
+</main>
+
+<footer>
+  <section class="hold">
+
+    <div class="col">
+      <h2>About</h2>
+         <ul>
+            <li><a href="#">Writers</a></li>
+            <li><a href="#">Carrers</a></li>
+            <li><a href="#">About us</a></li>
+          </ul>
+    </div>
+
+        <div class="col">
+      <h2>Help</h2>
+         <ul>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+    </div>
+
+    <div class="newsletter">
+      <div class="newsletter-text">
+        <h2>Newsletter</h2>
+          <p>Subcribe to our newsletter to keep updated!</p>
+          <div class="form">
+            <input class="text" type="text" placeholder="Email" />
+            <input class="submit" type="submit" value="">
+          </div>
+      </div>
+    </div>
+
+    <div class="social align-left">
+      <h3>Follow us:</h3>
+        <ul class="social-icons">
+          <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a> </li>
+          <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="instagram" href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a class="tiktok" href="#"><i class="fab fa-tiktok"></i></a></li>
+        </ul>
+    </div>
+
+</section>
+    <div class="copyright align-left">
+      <p>Copyright © 2022 All Rights Reserved • Web Development - Final Project</p>
+    </div>
+</footer>
+      
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="search.js"></script>
+<script src="toggle.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" scr="https://cdnjs.cloudflare.com/ajax/libs/animateCSS/1.2.2/jquery.animatecss.min.js"></script>
+
+</body>
+</html> 
+
